@@ -1,0 +1,16 @@
+﻿<UserControl x:Class="Program.UserControl1"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" Height="390.747" Width="584.179">
+    <Grid Margin="0,0,-290,0" HorizontalAlignment="Left" Width="590">
+        <Button Content="ПРИНЯТЬ" HorizontalAlignment="Left" Margin="381,10,0,0" VerticalAlignment="Top" Width="126" Height="34" Click="Button_Click"/>
+        <TextBox Name="t1" HorizontalAlignment="Left"   Height="66" Margin="27,1,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="317"/>
+        <TextBox x:Name="t2" HorizontalAlignment="Left" Height="66" Margin="27,74,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="317"/>
+        <TextBox x:Name="t3" HorizontalAlignment="Left" Height="66" Margin="27,146,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="317"/>
+        <TextBox x:Name="t4" HorizontalAlignment="Left" Height="66" Margin="27,220,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="317"/>
+        <TextBox x:Name="t5" HorizontalAlignment="Left" Height="66" Margin="27,292,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="317"/>
+
+    </Grid>
+</UserControl>
